@@ -206,11 +206,6 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 		count++;
 	}
 
-	public static Bitmap drawableToBitmap (Drawable drawable) {
-		Drawable myDrawable = ApplicationContextSingleton.getContext().getResources().getDrawable(R.drawable.i2);
-		Bitmap bm = ((BitmapDrawable) myDrawable).getBitmap();
-	    return bm;
-	}
 	
 	public void clearImage(View view) {
 		Bitmap bm = Bitmap.createBitmap(200, 100, Bitmap.Config.ARGB_8888);
