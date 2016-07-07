@@ -1,4 +1,5 @@
-AndroidSFM
+ScanMyth
 ==========
 
-An android application using opencv,android ndk to solve SFM using two images
+App prototype for 3D reconstruction from images using computer vision. 
+Technology used: Android, OpenCV, OpenGL, PLY file format.
